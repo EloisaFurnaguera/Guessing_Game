@@ -1,6 +1,7 @@
 
 print ("Welcome to the Game")
 name = input("What is your name? >")
+print ("Hello" + name)
 import random
 random_number = random.randint(1, 100)
 print (random_number)
